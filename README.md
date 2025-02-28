@@ -1,1 +1,1 @@
-# Django-Restful-Api-Eccomerce
+# Django-Restful-Api-Ecommerce
