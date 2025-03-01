@@ -3,6 +3,7 @@ from .models import Customer,Comment,Product,Order,Location,Reply
 from .serializer import CustomerSerializer,CommentSerializer,ProductSerializer,OrderSerializer,LocationSerializer,ReplySerializer
 from rest_framework.permissions import IsAuthenticated
 from rest_framework_simplejwt.authentication import JWTAuthentication
+from django.shortcuts import render
 
 
 class CustomerViewSet(viewsets.ModelViewSet):
@@ -38,3 +39,7 @@ class ReplyViewSet(viewsets.ModelViewSet):
     serializer_class = ReplySerializer
     authentication_classes = [JWTAuthentication]
     permission_classes = [IsAuthenticated]
+
+
+def home(request):
+   return render(request, 'index.html')

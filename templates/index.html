@@ -1,0 +1,106 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Restful Api - Django!</title>
+    <!-- <link href="{% static 'css/bootstrap.min.css' %}"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+</head>
+<style>
+  body{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  background: rgba(0, 128, 0, 0.1)
+  }
+
+.img{
+  /* width:100%;
+  height:350px; */
+}
+
+</style>
+<body>
+     <div class="container bg-light">
+      <div class="jumbotron text-center">
+        <h3>ECOMMERCE RESTFUL API - DJANGO </h3>
+        <p>Standard Restful Api , You can connect with  Website , Mobile App , Ussd </p>
+      </div>
+      <div class="section">
+        <div class="row justify-content-center">
+          <div class="col-sm-6">
+            <h4 class="text-center">HOW TO CONNECT WITH TO OUR API</h4>
+          </div>
+        </div>
+       
+        <div class="row mt-5">
+          <div class="col-sm-6">
+            <ul>
+              <li>
+                <h5> Step 1 : Create Access Token </h5>
+                <p>Navigate to <strong>api/token/</strong> then , create token by entering username & password</p>
+                <p><strong>Username: admin</strong></p>
+                <p><strong>Password: admin@12345</strong></p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <img src="{% static 'image/createtoken.jpg' %}"  alt="create token photo">
+            </div>
+           
+          </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-sm-6">
+          <ul>
+            <li>
+              <h6>Step 2 :Use Postman & Modheader chrome extension to setup Authorization token </h6>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <img src="{% static 'image/setupaccesstoken.jpg' %}"  alt="setup access token photo">
+          </div>
+        </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-sm-6">
+        <ul>
+          <li>
+            <h6>Step 3 :Access Api  </h6>
+            <p>Nagivate to <strong>api/v1/</strong> and start to access Api with all operation (Delete,Update,Insert)</p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <img src="{% static 'image/accesstoken.jpg' %}" alt="access token photo">
+        </div>
+      </div>
+  </div>
+  <div class="row mt-5 justify-content-center">
+    <div class="col-sm-4 ">
+      <h3 class="text-center">Feedback Whatsapp</h3>
+        <a href="https://wa.me/+255766116536" class="text-center hover-overlay ">  
+          <img src="{% static 'image/Whatsapp.png' %}" class="ml-5" alt="whatsapp logo">
+        </a>
+    </div>
+</div>
+</div>
+    
+</body>
+<!-- <script src="{% static 'js/bootstrap.min.js' %}"></script> -->
+
+</html>
