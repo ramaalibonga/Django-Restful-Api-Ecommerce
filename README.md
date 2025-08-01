@@ -1,25 +1,26 @@
-# Django-Restful-Api-Ecommerce
+# Django RESTful API E-commerce
+## A backend e-commerce application built using Django and Django REST Framework.
 
 
-# How to Install Locally 
+# 🚀 Local Installation Guide
 
-- ```Clone Project on Your Machine```
+- ```1. Clone the Repository```
   ```
   git clone https://github.com/ramaalibonga/Django-Restful-Api-Ecommerce.git
   ```
 
-- Navigate into the folder Django-Restful-Api-Ecommerce
+- 2. Navigate to the Project Directory
   ```
    cd Django-Restful-Api-Ecommerce
   ```
 
-- Then run 
+- 3. Install Dependencies
 ```
 pip install requirements.txt
 
 ```
 
-- After Successfully Install all requirements  ,Then run
+- 4. Run the Development Server
 ```
 python manage.py runserver
 
