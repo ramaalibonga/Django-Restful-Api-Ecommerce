@@ -4,23 +4,23 @@
 
 # 🚀 Local Installation Guide
 
-- ```1. Clone the Repository```
+- ```Clone the Repository```
   ```
   git clone https://github.com/ramaalibonga/Django-Restful-Api-Ecommerce.git
   ```
 
-- 2. Navigate to the Project Directory
+- Navigate to the Project Directory
   ```
    cd Django-Restful-Api-Ecommerce
   ```
 
-- 3. Install Dependencies
+- Install Dependencies
 ```
 pip install requirements.txt
 
 ```
 
-- 4. Run the Development Server
+- Run the Development Server
 ```
 python manage.py runserver
 
